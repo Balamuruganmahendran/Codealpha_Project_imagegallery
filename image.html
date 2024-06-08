@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(1)">
+            <img src="c:\Users\bala\Desktop\Intern Projects\My Portfolio\voice assistant image.jpeg" alt="Image 1">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(2)">
+            <img src="img1.jpeg" alt="Image 2">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(3)">
+            <img src="img2.jpeg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(4)">
+            <img src="img3.jpeg" alt="Image 4">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(1)">
+            <img src="img4.jpeg" alt="Image 1">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(2)">
+            <img src="img5.jpeg" alt="Image 2">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(3)">
+            <img src="img6.jpeg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(4)">
+            <img src="ing7.jpeg" alt="Image 4">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(1)">
+            <img src="c:\Users\bala\Desktop\Intern Projects\My Portfolio\voice assistant image.jpeg" alt="Image 1">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(2)">
+            <img src="img1.jpeg" alt="Image 2">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(3)">
+            <img src="img2.jpeg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(4)">
+            <img src="img3.jpeg" alt="Image 4">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(1)">
+            <img src="img4.jpeg" alt="Image 1">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(2)">
+            <img src="img5.jpeg" alt="Image 2">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(3)">
+            <img src="img6.jpeg" alt="Image 3">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(); setCurrentSlide(4)">
+            <img src="ing7.jpeg" alt="Image 4">
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <div class="slides">
+                <img src="c:\Users\bala\Desktop\Intern Projects\My Portfolio\voice assistant image.jpeg" alt="Image 1">
+                <div class="caption">Voice assistant Speaker</div>
+            </div>
+            <div class="slides">
+                <img src="img2.jpeg" alt="Image 2">
+                <div class="caption">Sunset Evening</div>
+            </div>
+            <div class="slides">
+                <img src="img3.jpeg" alt="Image 3">
+                <div class="caption">Nature </div>
+            </div>
+            <div class="slides">
+                <img src="path/to/image4.jpg" alt="Image 4">
+                <div class="caption">Caption for Image 4</div>
+            </div>
+            <!-- Add more slides as needed -->
+            <a class="prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></a>
+            <a class="next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="lightbox-thumbnails">
+            <img src="path/to/image1.jpg" onclick="setCurrentSlide(1)" alt="Thumbnail 1">
+            <img src="path/to/image2.jpg" onclick="setCurrentSlide(2)" alt="Thumbnail 2">
+            <img src="path/to/image3.jpg" onclick="setCurrentSlide(3)" alt="Thumbnail 3">
+            <img src="path/to/image4.jpg" onclick="setCurrentSlide(4)" alt="Thumbnail 4">
+        </div>
+        <div class="fullscreen-toggle" onclick="toggleFullscreen()">
+            <i class="fas fa-expand"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
