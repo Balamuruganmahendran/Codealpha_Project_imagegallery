@@ -1,85 +1,116 @@
 # Image Gallery
 
-## Description
-The "Image Gallery" project is a visually appealing and interactive web application designed to display a collection of images in a structured and user-friendly manner. Developed using HTML, CSS, and JavaScript within the Visual Studio Code environment, this project showcases modern web development techniques to create a dynamic and responsive image gallery. 
+ImageGallery is a simple and elegant web application that allows users to view and manage their image collections. Built using HTML, CSS, and JavaScript, this project provides a user-friendly interface for browsing and organizing images.
+![Project Demo](screenshots/demo.gif)
+
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
-- **Responsive Design**: Adapts to various screen sizes for optimal viewing on all devices.
-- **Interactive Elements**: Includes image sorting, filtering, and viewing in a modal or lightbox.
-- **Clean and Structured Code**: Follows best practices for HTML, CSS, and JavaScript.
-- **User-Friendly Interface**: Easy to navigate and aesthetically pleasing.
+
+- **Responsive Design**: Ensures optimal viewing experience across a wide range of devices.
+  
+- **Image Modal**: Clicking on an image opens a modal window for a larger view, with navigation controls to scroll through other images.
+
+- **CSS Grid**: Uses CSS Grid for a flexible and responsive layout of images.
+
+- **JavaScript Functionality**: Enables interactive features like modal pop-ups and image navigation.
+
+## Screenshots
+
+### Home Page
+
+![Home Page]![Output scr1](https://github.com/Balamuruganmahendran/Codealpha_Project_imagegallery/assets/140877546/ba4addc7-ca41-46da-a376-a81afbd4f7df)
+
+
+### Lightbox screen
+
+[lightbox_screen]![Lightbox scr](https://github.com/Balamuruganmahendran/Codealpha_Project_imagegallery/assets/140877546/842a0af7-2c45-4dcd-8fe5-9554d0790f3c)
+
+
+### Module screenshot
+
+[module_screenshot]![scr1](https://github.com/Balamuruganmahendran/Codealpha_Project_imagegallery/assets/140877546/04703ce6-e48e-4dc8-9f24-64f28d87be0c)
+[module_screenshot]![scr2](https://github.com/Balamuruganmahendran/Codealpha_Project_imagegallery/assets/140877546/18447fea-a07b-4c72-934b-3abec6f21602)
+[module_screenshot]![scr3](https://github.com/Balamuruganmahendran/Codealpha_Project_imagegallery/assets/140877546/73153322-7fb5-498e-afb3-274b4d31609e)
 
 ## Installation
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/your-username/image-gallery.git
-    ```
-2. **Navigate to the project directory**
-    ```bash
-    cd image-gallery
-    ```
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Balamuruganmahendran/Codealpha_Project_imagegallery
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd image-gallery
+   ```
+
+3. Open the `image.html` file in your preferred web browser.
 
 ## Usage
 
-1. **Open the project in Visual Studio Code**
-    ```bash
-    code .
-    ```
+1. Upon opening `image.html`, you will see the image gallery displaying thumbnails of images.
+   
+2. Click on any image thumbnail to open a modal view with a larger version of the image. Use the navigation arrows or swipe gestures (if applicable) to move between images.
 
-2. **Open `index.html` in a browser**
-    - Right-click on `index.html` in the file explorer and select "Open with Live Server" if you have the Live Server extension installed, or simply open the file directly in your browser.
+### Running the Application
+1. Open index.html in your web browser to start the application.
+2. Alternatively, you can use the Live Server extension in VSCode:
+- Install the Live Server extension from the VSCode marketplace.
+- Right-click on image.html and select "Open with Live Server".
 
-## File Structure
-```
-image-gallery/
-│
-├── css/
-│   └── styles.css      # CSS file for styling the gallery
-│
-├── js/
-│   └── script.js       # JavaScript file for interactivity
-│
-├── images/
-│   └── ...             # Directory containing the images
-│
-├── index.html          # Main HTML file
-│
-└── README.md           # Project documentation
-```
+### Configuration
+- No specific configurations are required for this project. Ensure all files (HTML, CSS, and JavaScript) are in the correct directory structure.
 
-## Customization
-
-- **Adding Images**: Add your images to the `images/` directory. Ensure the paths in the HTML file are updated accordingly.
-- **Modifying Styles**: Update the `styles.css` file to change the appearance of the gallery.
-- **Enhancing Functionality**: Edit the `script.js` file to add new features or modify existing ones.
+### Testing
+- Open index.html in various browsers to ensure cross-browser compatibility.
+- Manually test all features to ensure they work as expected.
+### Deployment
+- Ensure all files are in the root directory of your web server.
+- Deploy the project using any static site hosting service (e.g., GitHub Pages, Netlify)
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
+Contributions are welcome! Please follow these steps:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/awesome-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add awesome feature'`).
+5. Push to the branch (`git push origin feature/awesome-feature`).
+6. Create a new Pull Request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Special thanks to the Visual Studio Code team for their excellent development environment.
-- Icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com).
-
-## Contact
-
-For any questions or suggestions, feel free to reach out:
-
-- **Email**: balamurugansanthosh007@gmail.com
-- **GitHub**: [Balamuruganmahendran](https://github.com/Balamuruganmahendran)
+## Authors and Acknowledgments
+Balamuruganmahendran - Initial work 
 
 ---
 
-Enjoy using the Image Gallery! If you have any feedback or run into issues, please open an issue on the GitHub repository.
+## Contact Information
+For any inquiries, please contact Balamurugan at:
+
+- Email: balamurugan@example.com
+- GitHub: balamurugan
+
+## Changelog
+### v1.0.1
+- Improved responsiveness for mobile devices.
+### v1.0.0
+- Initial release.
+
+
+This README structure provides a comprehensive overview of your image gallery project, including installation instructions, usage guidelines, how to contribute, and licensing information. Adjust the sections and details as per your project specifics and replace placeholders with actual links and names.
