@@ -103,8 +103,8 @@ Balamuruganmahendran - Initial work
 ## Contact Information
 For any inquiries, please contact Balamurugan at:
 
-- Email: balamurugan@example.com
-- GitHub: balamurugan
+- Email: balamuruganmahendran67@gmail.com
+- GitHub: Balamuruganmahendran
 
 ## Changelog
 ### v1.0.1
